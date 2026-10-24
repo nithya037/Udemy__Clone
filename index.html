@@ -1,295 +1,293 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html>
-
-<head>
+  <head>
     <title>Udemy Clone</title>
     <!-- Google Style Sheet for fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap"
+      rel="stylesheet" />
     <!-- My Style Sheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- font-awesome-cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
     <div class="navbar">
-        <div class="navbar__s1">
-            <!-- <h1 class="navbar__s1-title">
+      <div class="navbar__s1">
+        <!-- <h1 class="navbar__s1-title">
                 Udamy
             </h1> -->
-            <img src="./images/logo.webp">
+        <img src="./images/logo.webp" />
+      </div>
+
+      <div class="navbar__s2">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input placeholder="Search for anything..." />
+      </div>
+
+      <div class="navbar__s3">
+        <p>Courses</p>
+        <!-- <p>My Learning</p> -->
+        <div class="my_learning">
+          <p>My Learning</p>
+          <div class="my_learning_popup">
+            <p>You did not purchase anything yet!</p>
+          </div>
         </div>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-user"></i>
+      </div>
 
-        <div class="navbar__s2">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input placeholder="Search for anything...">
-
-        </div>
-
-        <div class="navbar__s3">
-            <p>Courses</p>
-            <p>My Learning</p>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-solid fa-bell"></i>
-            <i class="fa-solid fa-user"></i>
-
-        </div>
+      <div class="navbar__s4">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </div>
     <!-- Categories -->
     <div class="categories__box"></div>
     <div class="categories">
-        <div class="categories__s1">
-            <p>Development</p>
-        </div>
-        <div class="categories__s2">
-            <p>Business</p>
-        </div>
-        <div class="categories__s3">
-            <p>IT & Software</p>
-        </div>
-        <div class="categories__s4">
-            <p>Personal Development</p>
-        </div>
-        <div class="categories__s5">
-            <p>Design</p>
-        </div>
-        <div class="categories__s6">
-            <p>Marketing</p>
-        </div>
-        <div class="categories__s7">
-            <p>UI UX</p>
-        </div>
-        <div class="categories__s8">
-            <p>Graphics</p>
-        </div>
+      <div class="categories__s">
+        <p>Development</p>
+      </div>
+      <div class="categories__s">
+        <p>Business</p>
+      </div>
+      <div class="categories__s">
+        <p>Soft Skill</p>
+      </div>
+      <div class="categories__s">
+        <p>Marketing</p>
+      </div>
+      <div class="categories__s">
+        <p>UI UX</p>
+      </div>
+      <div class="categories__s">
+        <p>Graphics</p>
+      </div>
     </div>
     <!--Banner  -->
     <div class="banner">
-        <img src="./images/banner-img-1.png">
+      <img src="./images/banner-img-2.jpg" />
+      <div class="banner__offer">
+        <h1>New offer!</h1>
+        <p>Top courses from ₹519.00 when you first visit Udemy</p>
+      </div>
     </div>
     <!-- Container -->
     <div class="container">
-        <!-- Recommended Card -->
-        <div class="recommended">
-            <h1 class="recommended__title">Trending courses</h1>
-            <p>Pick the best fit</p>
-            <div class="recommended__container">
-                <!-- card1 -->
-                <div class="recommended__container__card">
-                    <img src="./images/card1.png">
-                    <h3>AI Engineer Agentic Track: The Complete Agent & MCP Course</h3>
-                    <p>Master AI Agents in 30 days</p>
+      <!-- Recommended Card -->
+      <div class="recommended">
+        <h1 class="recommended__title">Trending courses</h1>
+        <p>Pick the best fit</p>
+        <div class="recommended__container">
+          <!-- card1 -->
+          <div class="recommended__container__card">
+            <img src="./images/card1.png" />
+            <h3>AI Engineer Agentic Track: The Complete Agent & MCP Course</h3>
+            <p>Master AI Agents in 30 days</p>
 
-                    <div class="recommended__container__card-footer">
-                        <div class="recommended__container__card-rating">
-                            <div class="r1">Bestseller</div>
-                            <div class="r2">⭐ 4.7</div>
-                            <div class="r3">50,046 ratings</div>
-                        </div>
+            <div class="recommended__container__card-footer">
+              <div class="recommended__container__card-rating">
+                <div class="r1">Bestseller</div>
+                <div class="r2">⭐ 4.7</div>
+                <div class="r3">50,046 ratings</div>
+              </div>
 
-                        <div class="recommended__container__card-pricing">
-                            <div class="p1">₹480</div>
-                            <div class="p2">₹799.00</div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- card2 -->
-                <div class="recommended__container__card">
-                    <img src="./images/card2.png">
-                    <h3>AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents</h3>
-                    <p>Become an LLM Engineer in 8 weeks</p>
-                    <div class="recommended__container__card-footer">
-
-                        <div class="recommended__container__card-rating">
-                            <div class="r1">Bestseller</div>
-                            <div class="r2">⭐ 4.6</div>
-                            <div class="r3">43,726 ratings</div>
-                        </div>
-
-                        <div class="recommended__container__card-pricing">
-                            <div class="p1">₹999</div>
-                            <div class="p2">₹3,899.00</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- card3 -->
-                <div class="recommended__container__card">
-                    <img src="./images/card3.png">
-                    <h3>AI Coder: Complete Claude Code & Coding Agents Course</h3>
-                    <p>Master Vibe Coding with AI Coding Agents</p>
-                    <div class="recommended__container__card-footer">
-
-                        <div class="recommended__container__card-rating">
-                            <div class="r1">Bestseller</div>
-                            <div class="r2">⭐ 4.6</div>
-                            <div class="r3">12,806 ratings</div>
-                        </div>
-
-                        <div class="recommended__container__card-pricing">
-                            <div class="p1">₹399</div>
-                            <div class="p2">₹599.00</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- card4 -->
-                <div class="recommended__container__card">
-
-                    <img src="./images/card4.png">
-                    <h3>The AI Engineer Course 2026: Complete AI Engineer Bootcamp</h3>
-                    <p>Master AI Agents in 30 days</p>
-                    <div class="recommended__container__card-footer">
-
-                        <div class="recommended__container__card-rating">
-                            <div class="r1">Bestseller</div>
-                            <div class="r2">⭐ 4.5</div>
-                            <div class="r3">25,089 ratings</div>
-                        </div>
-
-                        <div class="recommended__container__card-pricing">
-                            <div class="p1">₹3599</div>
-                            <div class="p2">₹5699</div>
-                        </div>
-                    </div>
-
-                </div>
+              <div class="recommended__container__card-pricing">
+                <div class="p1">₹480</div>
+                <div class="p2">₹799.00</div>
+              </div>
             </div>
+          </div>
+          <!-- card2 -->
+          <div class="recommended__container__card">
+            <img src="./images/card2.png" />
+            <h3>AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents</h3>
+            <p>Become an LLM Engineer in 8 weeks</p>
+            <div class="recommended__container__card-footer">
+              <div class="recommended__container__card-rating">
+                <div class="r1">Bestseller</div>
+                <div class="r2">⭐ 4.6</div>
+                <div class="r3">43,726 ratings</div>
+              </div>
+
+              <div class="recommended__container__card-pricing">
+                <div class="p1">₹999</div>
+                <div class="p2">₹3,899.00</div>
+              </div>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="recommended__container__card">
+            <img src="./images/card3.png" />
+            <h3>AI Coder: Complete Claude Code & Coding Agents Course</h3>
+            <p>Master Vibe Coding with AI Coding Agents</p>
+            <div class="recommended__container__card-footer">
+              <div class="recommended__container__card-rating">
+                <div class="r1">Bestseller</div>
+                <div class="r2">⭐ 4.6</div>
+                <div class="r3">12,806 ratings</div>
+              </div>
+
+              <div class="recommended__container__card-pricing">
+                <div class="p1">₹399</div>
+                <div class="p2">₹599.00</div>
+              </div>
+            </div>
+          </div>
+          <!-- card4 -->
+          <div class="recommended__container__card">
+            <img src="./images/card4.png" />
+            <h3>The AI Engineer Course 2026: Complete AI Engineer Bootcamp</h3>
+            <p>Master AI Agents in 30 days</p>
+            <div class="recommended__container__card-footer">
+              <div class="recommended__container__card-rating">
+                <div class="r1">Bestseller</div>
+                <div class="r2">⭐ 4.5</div>
+                <div class="r3">25,089 ratings</div>
+              </div>
+
+              <div class="recommended__container__card-pricing">
+                <div class="p1">₹3599</div>
+                <div class="p2">₹5699</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="topic">
+        <h1 class="topic__title">Skills to transform your career and life</h1>
+        <p>
+          From critical workplace skills to technical topics, Udemy supports
+          your professional development.
+        </p>
+        <div class="topic__container">
+          <p>Python</p>
+          <p>Microsoft Excel</p>
+          <p>Project Management</p>
+          <p>Blender</p>
+          <p>Java</p>
+          <p>Data Modeling</p>
+          <p>3D & Animation</p>
+          <p>Digital Marketing</p>
+          <p>Data Science</p>
+          <p>Game Development</p>
+          <p>Web Development</p>
+          <p>Ethical Hacking</p>
         </div>
         <div class="topic">
-            <h1 class="topic__title">Skills to transform your career and life</h1>
-            <p>From critical workplace skills to technical topics, Udemy supports your professional development.
-            </p>
-            <div class="topic__container">
-                <p>Python</p>
-                <p>Microsoft Excel</p>
-                <p>Project Management</p>
-                <p>Blender</p>
-                <p>Java</p>
-                <p>Data Modeling</p>
-                <p>3D & Animation</p>
-                <p>Digital Marketing</p>
-                <p>Data Science</p>
-                <p>Game Development</p>
-                <p>Web Development</p>
-                <p>Ethical Hacking</p>
+          <h1 class="topic__title">Certificate path – 8 course series</h1>
+          <p>
+            Through 20+ hands-on activities, you’ll build a portfolio of
+            job-ready solutions you can use at work, right away.
+          </p>
+          <div class="recommended__container">
+            <!-- card1 -->
+            <div class="recommended__container__card">
+              <img src="./images/G1.webp" />
+              <h3>AI Fundamentals</h3>
+              <p>Course 1 of 7</p>
             </div>
-            <div class="topic">
-                <h1 class="topic__title">Certificate path – 8 course series</h1>
-                <p>Through 20+ hands-on activities, you’ll build a portfolio of job-ready solutions you can use at work,
-                    right away. </p>
-                <div class="recommended__container">
-                    <!-- card1 -->
-                    <div class="recommended__container__card">
-                        <img src="./images/G1.webp">
-                        <h3>AI Fundamentals</h3>
-                        <p>Course 1 of 7</p>
-                    </div>
 
-                    <!-- card2 -->
-                    <div class="recommended__container__card">
-                        <img src="./images/G2.webp">
-                        <h3>AI for Brainstorming and Planning</h3>
-                        <p>Course 2 of 7</p>
-                    </div>
-
-                    <!-- card3 -->
-                    <div class="recommended__container__card">
-                        <img src="./images/G3.jpg">
-                        <h3>AI for Research and Insights</h3>
-                        <p>Course 3 of 7</p>
-                    </div>
-
-                    <!-- card4 -->
-                    <div class="recommended__container__card">
-
-                        <img src="./images/G4.webp">
-                        <h3>AI for Writing and Communicating</h3>
-                        <p>Course 4 of 7</p>
-                    </div>
-
-                    <!-- card5 -->
-                    <div class="recommended__container__card">
-                        <img src="./images/G5.webp">
-                        <h3>AI for Content Creation</h3>
-                        <p>Course 5 of 7</p>
-                    </div>
-
-                    <!-- card6 -->
-                    <div class="recommended__container__card">
-                        <img src="./images/G6.webp">
-                        <h3>AI for Data Analysis</h3>
-                        <p>Course 6 of 7</p>
-                    </div>
-
-                    <!-- card7 -->
-                    <div class="recommended__container__card">
-
-                        <img src="./images/G7.webp">
-                        <h3>AI for App Building</h3>
-                        <p>Course 7 of 7</p>
-                    </div>
-
-                    <!-- card8 -->
-                    <div class="recommended__container__card">
-                        <img src="./images/G_certi.jpeg">
-                        <h3>Google AI Professional Certificate</h3>
-                        <p>Earn a certificate</p>
-                    </div>
-
-                </div>
-
+            <!-- card2 -->
+            <div class="recommended__container__card">
+              <img src="./images/G2.webp" />
+              <h3>AI for Brainstorming and Planning</h3>
+              <p>Course 2 of 7</p>
             </div>
+
+            <!-- card3 -->
+            <div class="recommended__container__card">
+              <img src="./images/G3.jpg" />
+              <h3>AI for Research and Insights</h3>
+              <p>Course 3 of 7</p>
+            </div>
+
+            <!-- card4 -->
+            <div class="recommended__container__card">
+              <img src="./images/G4.webp" />
+              <h3>AI for Writing and Communicating</h3>
+              <p>Course 4 of 7</p>
+            </div>
+
+            <!-- card5 -->
+            <div class="recommended__container__card">
+              <img src="./images/G5.webp" />
+              <h3>AI for Content Creation</h3>
+              <p>Course 5 of 7</p>
+            </div>
+
+            <!-- card6 -->
+            <div class="recommended__container__card">
+              <img src="./images/G6.webp" />
+              <h3>AI for Data Analysis</h3>
+              <p>Course 6 of 7</p>
+            </div>
+
+            <!-- card7 -->
+            <div class="recommended__container__card">
+              <img src="./images/G7.webp" />
+              <h3>AI for App Building</h3>
+              <p>Course 7 of 7</p>
+            </div>
+
+            <!-- card8 -->
+            <div class="recommended__container__card">
+              <img src="./images/G_certi.jpeg" />
+              <h3>Google AI Professional Certificate</h3>
+              <p>Earn a certificate</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="footer">
-        <div class="footer__one">
-            <div class="footer__one_s1">
-                <h3>About</h3>
-                <p>About us</p>
-                <p>Careers</p>
-                <p>Contact us</p>
-                <p>Blog</p>
-                <p>Explore Coursera</p>
-            </div>
-            <div class="footer__one__s2">
-                <h3>Discover Udemy</h3>
-                <p>Get the app</p>
-                <p>Teach on Udemy</p>
-                <p>Plans and Pricing</p>
-                <p>Affiliate</p>
-                <p>Help and Support</p>
-            </div>
-            <div class="footer__one__s3">
-                <h3>Udemy for Business</h3>
-                <p>Udemy Business</p>
-            </div>
-            <div class="footer__one__s4">
-                <h3> Legal & Accessibility</h3>
-                <p>Accessibility statement</p>
-                <p>Privacy policy</p>
-                <p>Sitemap</p>
-                <p>Terms</p>
-            </div>
+      <div class="footer__one">
+        <div class="footer__one_s1">
+          <h3>About</h3>
+          <p>About us</p>
+          <p>Careers</p>
+          <p>Contact us</p>
+          <p>Blog</p>
+          <p>Explore Coursera</p>
         </div>
-        <div class="footer__two">
-            <div class="footer__two__s1">
-                <img src="./images/logo_b.png">
-            </div>
+        <div class="footer__one__s2">
+          <h3>Discovery</h3>
+          <p>Get the app</p>
+          <p>Teach on Udemy</p>
+          <p>Plans and Pricing</p>
+          <p>Affiliate</p>
+          <p>Help and Support</p>
+        </div>
+        <div class="footer__one__s4">
+          <h3>Legal </h3>
+          <p>Accessibility statement</p>
+          <p>Privacy policy</p>
+          <p>Sitemap</p>
+          <p>Terms</p>
+        </div>
+      </div>
+      <div class="footer__two">
+        <div class="footer__two__s1">
+          <img src="./images/logo_b.png" />
+        </div>
 
-            <div class="footer__two__s2">
-                <div>&copy; 2026 Udemy, Inc.</div>
-                <div>Cookie settings</div>
-                <div><i class="fa fa-globe" aria-hidden="true"></i> English</div>
-            </div>
+        <div class="footer__two__s2">
+          <div>&copy; 2026 Udemy, Inc.</div>
+          <div><i class="fa fa-globe" aria-hidden="true"></i> English</div>
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
